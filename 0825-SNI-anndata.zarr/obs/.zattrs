@@ -1,0 +1,23 @@
+{
+    "_index": "_index",
+    "column-order": [
+        "Datasets",
+        "volume",
+        "center_x",
+        "center_y",
+        "batch",
+        "voting",
+        "tangram",
+        "singler",
+        "seurat",
+        "rctd",
+        "Condition",
+        "Mouse ID",
+        "Axial level",
+        "Side",
+        "Section ID",
+        "Custom Cells groups"
+    ],
+    "encoding-type": "dataframe",
+    "encoding-version": "0.2.0"
+}
