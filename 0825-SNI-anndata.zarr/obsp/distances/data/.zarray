@@ -1,6 +1,6 @@
 {
     "chunks": [
-        42784
+        56518
     ],
     "compressor": {
         "blocksize": 0,
@@ -9,12 +9,12 @@
         "id": "blosc",
         "shuffle": 1
     },
-    "dtype": "<f8",
+    "dtype": "<f4",
     "fill_value": 0.0,
     "filters": null,
     "order": "C",
     "shape": [
-        342272
+        226071
     ],
     "zarr_format": 2
 }

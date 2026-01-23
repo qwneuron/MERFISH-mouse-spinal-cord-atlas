@@ -38,7 +38,7 @@
             "obsSets": [
               {
                 "name": "Cell type",
-                "path": "obs/MERFISH cell type annotation"
+                "path": "obs/voting"
               }
             ],
             "obsFeatureMatrix": {

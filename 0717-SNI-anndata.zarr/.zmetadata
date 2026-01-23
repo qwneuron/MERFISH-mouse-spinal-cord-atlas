@@ -1005,6 +1005,32 @@
             "encoding-type": "array",
             "encoding-version": "0.2.0"
         },
+        "obsm/spatial/.zarray": {
+            "chunks": [
+                13822,
+                2
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<i4",
+            "fill_value": 0,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                13822,
+                2
+            ],
+            "zarr_format": 2
+        },
+        "obsm/spatial/.zattrs": {
+            "encoding-type": "array",
+            "encoding-version": "0.2.0"
+        },
         "obsp/.zattrs": {
             "encoding-type": "dict",
             "encoding-version": "0.1.0"
@@ -1025,7 +1051,7 @@
         },
         "obsp/connectivities/data/.zarray": {
             "chunks": [
-                80744
+                46776
             ],
             "compressor": {
                 "blocksize": 0,
@@ -1039,13 +1065,13 @@
             "filters": null,
             "order": "C",
             "shape": [
-                322976
+                93552
             ],
             "zarr_format": 2
         },
         "obsp/connectivities/indices/.zarray": {
             "chunks": [
-                80744
+                46776
             ],
             "compressor": {
                 "blocksize": 0,
@@ -1059,7 +1085,7 @@
             "filters": null,
             "order": "C",
             "shape": [
-                322976
+                93552
             ],
             "zarr_format": 2
         },
@@ -1096,7 +1122,7 @@
         },
         "obsp/distances/data/.zarray": {
             "chunks": [
-                48376
+                40277
             ],
             "compressor": {
                 "blocksize": 0,
@@ -1105,18 +1131,18 @@
                 "id": "blosc",
                 "shuffle": 1
             },
-            "dtype": "<f8",
+            "dtype": "<f4",
             "fill_value": 0.0,
             "filters": null,
             "order": "C",
             "shape": [
-                193504
+                80554
             ],
             "zarr_format": 2
         },
         "obsp/distances/indices/.zarray": {
             "chunks": [
-                48376
+                40277
             ],
             "compressor": {
                 "blocksize": 0,
@@ -1130,7 +1156,7 @@
             "filters": null,
             "order": "C",
             "shape": [
-                193504
+                80554
             ],
             "zarr_format": 2
         },
@@ -1245,6 +1271,20 @@
             "encoding-type": "numeric-scalar",
             "encoding-version": "0.2.0"
         },
+        "uns/neighbors/params/n_pcs/.zarray": {
+            "chunks": [],
+            "compressor": null,
+            "dtype": "<i8",
+            "fill_value": 0,
+            "filters": null,
+            "order": "C",
+            "shape": [],
+            "zarr_format": 2
+        },
+        "uns/neighbors/params/n_pcs/.zattrs": {
+            "encoding-type": "numeric-scalar",
+            "encoding-version": "0.2.0"
+        },
         "uns/neighbors/params/random_state/.zarray": {
             "chunks": [],
             "compressor": null,
@@ -1265,41 +1305,6 @@
         },
         "uns/pca/.zgroup": {
             "zarr_format": 2
-        },
-        "uns/pca/params/.zattrs": {
-            "encoding-type": "dict",
-            "encoding-version": "0.1.0"
-        },
-        "uns/pca/params/.zgroup": {
-            "zarr_format": 2
-        },
-        "uns/pca/params/use_highly_variable/.zarray": {
-            "chunks": [],
-            "compressor": null,
-            "dtype": "|b1",
-            "fill_value": false,
-            "filters": null,
-            "order": "C",
-            "shape": [],
-            "zarr_format": 2
-        },
-        "uns/pca/params/use_highly_variable/.zattrs": {
-            "encoding-type": "numeric-scalar",
-            "encoding-version": "0.2.0"
-        },
-        "uns/pca/params/zero_center/.zarray": {
-            "chunks": [],
-            "compressor": null,
-            "dtype": "|b1",
-            "fill_value": false,
-            "filters": null,
-            "order": "C",
-            "shape": [],
-            "zarr_format": 2
-        },
-        "uns/pca/params/zero_center/.zattrs": {
-            "encoding-type": "numeric-scalar",
-            "encoding-version": "0.2.0"
         },
         "uns/pca/variance/.zarray": {
             "chunks": [
