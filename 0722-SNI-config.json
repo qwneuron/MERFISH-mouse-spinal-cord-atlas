@@ -39,6 +39,14 @@
               {
                 "name": "Cell type",
                 "path": "obs/voting"
+              },
+              {
+                "name": "Mouse ID",
+                "path": "obs/Mouse ID"
+              },
+              {
+                "name": "Axial level",
+                "path": "obs/Axial level"
               }
             ],
             "obsFeatureMatrix": {
