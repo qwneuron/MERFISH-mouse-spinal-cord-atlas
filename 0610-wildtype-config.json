@@ -39,6 +39,18 @@
               {
                 "name": "Cell type",
                 "path": "obs/MERFISH cell type annotation"
+              },
+              {
+                "name": "Mouse ID",
+                "path": "obs/Mouse ID"
+              },
+              {
+                "name": "Sex",
+                "path": "obs/Gender"
+              },
+              {
+                "name": "Axial level",
+                "path": "obs/Axial level"
               }
             ],
             "obsFeatureMatrix": {
