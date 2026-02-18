@@ -79,17 +79,6 @@
       "h": 12
     },
     {
-      "component": "scatterplot",
-      "coordinationScopes": {
-        "dataset": "A",
-        "embeddingType": "X_UMAP"
-      },
-      "x": 6,
-      "y": 0,
-      "w": 3,
-      "h": 6
-    },
-    {
       "component": "obsSets",
       "coordinationScopes": {
         "dataset": "A"
@@ -105,9 +94,9 @@
         "dataset": "A"
       },
       "x": 6,
-      "y": 6,
+      "y": 0,
       "w": 3,
-      "h": 6
+      "h": 12
     }
   ],
   "initStrategy": "auto"
